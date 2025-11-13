@@ -22,11 +22,15 @@ const Header = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between">
-        {/* logo */}
-        <Link href="/" className="text-3xl font-extrabold text-[#7e22ce]">
-          {" "}
-          ∑{" "}
-        </Link>
+        <Link
+  href="/"
+  className="text-2xl font-extrabold tracking-wide bg-gradient-to-r from-[#a855f7] via-[#c084fc] to-[#7c3aed] 
+             text-transparent bg-clip-text drop-shadow-[0_2px_12px_rgba(168,85,247,0.35)]
+             transition-all duration-300 hover:scale-105 hover:drop-shadow-[0_0_18px_rgba(168,85,247,0.65)] hover:tracking-wider"
+>
+  Avinash
+</Link>
+
 
         {/* desktop naviation menu */}
         <nav className="hidden md:flex space-x-10 font-medium text-lg text-white/80">
