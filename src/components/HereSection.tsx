@@ -5,10 +5,20 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import ScrollReveal from "./ScrollReveal";
+import DownloadButton from "./DownloadButton";
 
 const HereSection = () => {
   return (
     <section id="home" className="relative pt-36 pb-24">
+      <div className="absolute right-3 top-26 z-40">
+        <div className="hidden sm:block">
+          <DownloadButton />
+        </div>
+        {/* small mobile placement */}
+        <div className="block sm:hidden">
+          <DownloadButton />
+        </div>
+      </div>
       <div className="mt-12 md:mt-24">
         {/* avatar and headline */}
         <ScrollReveal stagger={0.12} className="flex flex-col md:flex-row gap-8 items-start md:items-center">
