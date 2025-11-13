@@ -1,13 +1,16 @@
-import React from 'react'
+"use client";
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className='mt-24 border-t border-white/10'>
-      <div className='max-w-7xl mx-auto px-6 lg:px-8 py-8 text-center'>
-        <p className='text-sm text-white/40'>© {new Date().getFullYear()} Codetutor Labs. All rights reserved.</p>
+    <footer className="mt-24 border-t border-white/10">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8 text-center">
+        <p className="text-sm text-white/40">
+          © {new Date().getFullYear()} Avinash Roy. All Rights Reserved.
+        </p>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

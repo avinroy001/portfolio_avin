@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import ScrollReveal from "./ScrollReveal";
-import { XIcon } from "@heroicons/react/24/solid"; // optional, or use any svg/button
+import { XMarkIcon } from "@heroicons/react/24/solid"; // optional, or use any svg/button
 
 type ExperienceItem = {
   id: string;
